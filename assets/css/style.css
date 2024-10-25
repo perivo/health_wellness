@@ -1,0 +1,65 @@
+/* assets/css/style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer Styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Alert Messages */
+.alert {
+    margin-top: 20px;
+}
+
+/* Yoga and Diet Card Styles */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
